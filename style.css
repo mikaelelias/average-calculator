@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #ddd;
     margin: 0;
     display: flex;
     align-items: center;
@@ -18,7 +19,7 @@ body {
     justify-content: center;
     width: 500px;
     height: 600px;
-    background-color: rgb(107, 105, 105);
+    background-color: #333;
     border-radius: 20px;
 }
 
@@ -32,25 +33,28 @@ body {
 
 .input-number {
     width: 300px;
-    height: 60px;
+    height: 40px;
     font-size: 20px;
-    color: rgb(112, 114, 114);
+    background-color: #444;
+    color: #fff;
     margin-left: 20px;
     border-radius: 15px;
     text-align: center;
     margin-bottom: 20px;
+    border: none;
 }
 
 .message_to_user {
-    font-size: 30px;
-    color: azure;
+    font-size: 20px;
+    color: #fff;
 }
 
 .btn-welcome {
     width: 300px;
     height: 100px;
     font-size: 40px;
-    color: rgb(112, 114, 114);
+    background-color: #555;
+    color: #fff;
     margin-left: 20px;
     padding: 20px;
     margin-top: 20px;
